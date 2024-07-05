@@ -8,7 +8,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: url('https://img.freepik.com/premium-photo/dark-velvet-enchantment-luxury-background-with-gradient-textured-matte-colors_555090-4086.jpg') no-repeat center center fixed;
     background-size: cover,cover;
-    color: #bd0081;
+    color: #26f5f5;
     overflow-x: hidden;
     cursor: none;
     
@@ -42,7 +42,7 @@ div {
 }
 
 .menu a:hover {
-    color: #ffffff;
+    color: #26f5f5;
 }
 
 .spotlight {
@@ -101,7 +101,9 @@ div {
     background-color: #aa045f;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:italic;
     text-align: center;
     text-decoration: none;
     display: inline-block;
