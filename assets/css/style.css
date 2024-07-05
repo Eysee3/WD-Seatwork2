@@ -2,7 +2,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     position: relative;
     margin: 0;
@@ -10,7 +9,7 @@ body {
     background: url('https://img.freepik.com/premium-photo/dark-velvet-enchantment-luxury-background-with-gradient-textured-matte-colors_555090-4086.jpg') no-repeat center center fixed;
     background-size: cover,cover;
     color: #bd0081;
-    overflow: hidden;
+    overflow-x: hidden;
     cursor: none;
     
 }
