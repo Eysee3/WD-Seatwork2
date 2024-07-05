@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of AC Ramos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="header">  
+        <div align="center">
+            <img src="./assets/img/Logo.png" alt="Logo" width="300" height="300">
+        </div>
+        <div align="center">
+            <h1>AC Ramos Resume</h1>
+        </div>
+    </div>
+    <div class="spotlight" id="spotlight"></div>
+    <div id="particles"></div>
+    <div class="container">
+        <div class="menu">
+            <a href="#about">About Me</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact Information</a>
+        </div>
+        
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="./assets/img/AC RAMOS.gif" alt="About Me" width="750" height="400">
+                <p>Hello, my name is Allyssa Celine I. Ramos and I am a 1st year college student studying in BSIT that specializes in Animation and Game Development. 
+                </p>
+                <ul>
+                    <li>Studied in Far Eastern University for Senior Highschool with the strand of Humanities and Social Sciences</li>
+                    <li>Specialized in Media and Arts (Film and Communication Arts)</li>
+                    <li>Proficient in both digital and traditional arts</li>
+                    <li>Part of publications committee for 3 organizations</li>
+                
+                </ul>
+            </div>
+        </section>
+        
+        <div id="education" class="section">
+            <h2>Education</h2>
+            <p>Currently a student in FEUTECH, taking the Bachelor of Information TEchnology, specializing in Animation and Game Development. With this course, they have already had Introduction to Computing, Computer Programming 1 & 2 and is now currently taking Web Design and Data Structures and Algorithms.</p>
+            <p><b>Programming Languages Learned/Currently Learning:</b></p>
+            <ul>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png" alt="About Me" width="50" height="50">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png" alt="About Me" width="50" height="50">
+            </ul>
+        </div>
+        
+        <div id="projects" class="section">
+            <h2>Projects</h2>
+            <p>----------To Be Added----------</p>
+        </div>
+        
+        <div id="contact" class="section">
+            <h2>Contact Information</h2>
+            <p><u>Email: 202311277@fit.edu.ph</u></p>
+            <p><u>Github: https://github.com/Eysee3</u></p>
+        </div>
+    </div>
+    <script>
+        const spotlight = document.getElementById('spotlight');
+        document.addEventListener('mousemove', (e) => {
+            spotlight.style.transform = `translate(${e.clientX - 75}px, ${e.clientY - 75}px)`;
+        });
+        document.addEventListener('scroll', () => {
+            spotlight.style.top = `px`;
+        });
+    </script>
+</body>
+</html>
