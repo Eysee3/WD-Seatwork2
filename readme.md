@@ -4,16 +4,16 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
+  <a href="https://github.com/Eysee3/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/Logo.png" alt="Nyebe" width="230" height="230">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Resume</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  Resume containing things about ourselves, education, projects and contact information.
 </div>
 
 <br />
@@ -57,13 +57,14 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Resume containing things about ourselves, education, projects and contact information.
 
 Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+- What is the project? Resume
+- Whats the purpose? To compile our work
+- What are key components? About me, Education, Projects and Contact Information
+- What technology used and how it is used? HTML, CSS, JS, Bootstrap, Font Awesome, Google Fonts, etc. 
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -111,4 +112,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Glowing Pointer | Aesthetic Purposes | https://codepen.io/tomhodgins/pen/egWjBb |
+| Slow Color Change | Indicates that the pointer is hovering over a clickable option |https://buoy.work/projects/ |
